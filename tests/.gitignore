@@ -1,0 +1,11 @@
+# Object files
+*.o
+
+# Compiled test executable
+test_malloc
+
+# Temporary files
+*.swp
+*.swo
+*~
+
