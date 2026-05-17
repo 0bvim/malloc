@@ -1,0 +1,56 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security
+    url: mailto:niviciusdev@gmail.com
+    about: Report a security vulnerability
+issue_template:
+  - name: Bug report
+    about: Create a report to help us fix a reproducible bug
+    title: "[BUG] "
+    labels: ["bug"]
+    body: |
+      <!-- Please provide a clear and concise description of the bug. -->
+      **Summary**
+      <!-- A short description of what went wrong. -->
+
+      **Repository / Version**
+      <!-- e.g. commit hash, tag, or "main" branch -->
+
+      **Environment**
+      - OS: <!-- e.g. macOS 12.6 -->
+      - Compiler: <!-- e.g. clang/gcc and version -->
+      - Any relevant library/version: <!-- e.g. libft commit -->
+
+      **Steps to reproduce**
+      1. <!-- step 1 -->
+      2. <!-- step 2 -->
+      3. <!-- ... -->
+
+      **Expected behavior**
+      <!-- What you expected to happen -->
+
+      **Actual behavior**
+      <!-- What actually happened (logs, diff, output) -->
+
+      **Test case / minimal reproducer**
+      <!-- If possible, paste a minimal code snippet or command that reproduces the issue. -->
+
+      **Additional context**
+      <!-- Any other information, screenshots, or notes. -->
+  - name: Feature request
+    about: Suggest an enhancement or new feature
+    title: "[ENHANCEMENT] "
+    labels: ["enhancement"]
+    body: |
+      **Is your feature request related to a problem? Please describe.**
+      <!-- Describe the problem -->
+
+      **Describe the solution you'd like**
+      <!-- Describe the desired behavior -->
+
+      **Alternatives considered**
+      <!-- Any alternative solutions or features you considered -->
+
+      **Additional context**
+      <!-- Any other info, examples, or mockups -->
+
