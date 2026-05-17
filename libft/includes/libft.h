@@ -13,18 +13,6 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
-/* Std Libs Headers */
-# include <unistd.h>
-
-/* Bonus TypeStruct */
-
-typedef struct s_list	t_list;
-struct	s_list
-{
-	void	*content;
-	t_list	*next;
-};
-
 /* Mandatory Functions */
 int		ft_toupper(int c);
 int		ft_tolower(int c);
